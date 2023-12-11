@@ -85,8 +85,150 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
 
+/* =========================================================*/   
+/* --------------------------Base Header - Footer STyles------------- */
+.content-wrapper {
+  outline: 3px dotted red;
+  width: 90%;
+  
+}
+
+header {
+  display: flex;
+  justify-content: center;
+} 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+aside {
+  display: flex;
+  justify-content: center;
+}
+header .content-wrapper {
+  display: flex;
+  align-items: center;
+  
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+footer .social {
+  
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/*----------------------features---------------*/
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+
+/*----------------------reviews-----------------*/
+
+.reviews {
+  display: flex;
+  justify-content: center; 
+
+}
+
+
+/*----------------------footer-------------------*/
+
+
+
+.footer-content {
+
+}
+.contact {
+
+
+}
+
+.copyright {
+
+
+}
+
+
+/*----------------------about page----------------*/
+.mission {
+display: flex;
+justify-content: center;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+
+}
+.map {
+
+}
+.mission-content {
+
+}
+
+
+/*----------------------faqs----------------------*/
+.faq{
+  display: flex;
+  justify-content: center; 
+}
+.faq-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+
+/* ----------------------Mobile Styles-Homepage-----------------*/
+
+.hero-area {
+display: flex;
+justify-content: center;
+
+
+}
+
+
+justify-content: center;
+
+}
+
+
+
+
+  
 /* ==========================================================================
    Helper classes
    ========================================================================== */
