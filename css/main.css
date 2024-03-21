@@ -558,6 +558,10 @@ aside .content-wrapper .form {
 }
 
 /* features */
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 45px;
+}
 
 .features article {
   width:30%;
