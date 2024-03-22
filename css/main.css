@@ -130,8 +130,8 @@ p {
   line-height: 1.125em;
 }
  
-img {
- 
+ a img {
+ width: 40%;
 }
  
 figure {
@@ -168,7 +168,7 @@ header .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row wrap;
+  
   margin: 0;
 }
 .header-divider {
@@ -185,8 +185,9 @@ header {
 }
 
 header nav {
-  width: 60%;
-   
+  width: 50%;
+  display: flex;
+
 }
 header nav ul {
   display: flex;
@@ -282,7 +283,7 @@ footer p {
   margin: 0;
 }
 input .text {
-  padding: 1 em;
+  padding: 1em;
   margin-bottom: 20px;
 }
 input .button {
@@ -700,7 +701,7 @@ align-items: flex-start;
 
 }
 
-@media only screena and (min-width: 1200px)
+@media only screen and (min-width: 1200px)
 {
   /*desktop styles here*/
 
