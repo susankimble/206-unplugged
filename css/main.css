@@ -99,6 +99,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
  
 ul, 
@@ -116,12 +117,15 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
+  margin: 0;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
   margin: 20px 0;
 }
  
@@ -130,12 +134,13 @@ p {
   line-height: 1.125em;
 }
  
- a img {
- width: 40%;
+ img {
+ width: 100%;
 }
  
 figure {
- 
+width: 50%;
+ margin: 0;
 }
  
 address {
@@ -148,28 +153,22 @@ address {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* --------------------------Base Header - Footer STyles------------- */
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #202322;
 }
 header .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  flex-flow: row wrap;
   margin: 0;
+}
+header figure {
+  width: 60%;
 }
 .header-divider {
   background-color: #3a3a3a;
@@ -177,16 +176,11 @@ header .content-wrapper {
   height: 1px;
   margin: 10px 0 20px 0;
 }
-header {
-  display: flex;
-  justify-content: center;
-  padding: 15px 0;
-  background-color: #202322;
-}
+
 
 header nav {
   width: 50%;
-  display: flex;
+ 
 
 }
 header nav ul {
@@ -198,23 +192,38 @@ header nav ul {
 }
 
 footer {
+  background-color: #202322;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #202322;
 }
-footer .social-icons {
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+ footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
+
+
 footer .social-icons p {
   background-color: #527158;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -222,17 +231,10 @@ footer .social-icons p {
 footer .social-icons p i {
   font-size: 1.3125em;
 }
-footer .social {
-  
-  justify-content: space-around;
-  align-items: center;
-}
-footer .social p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
+footer .copyright {
+  margin: 20px 0;
+}
 /*----------------mobile styles----------*/
 /* hero area */
 
@@ -328,13 +330,7 @@ margin-bottom: 40px;
   justify-content: center;
   background-color: #2a423a;
 }
-img {
-  width: 50%;
-  
-}
-figure {
-  margin: 0%;
-}
+
 .reviews h3 {
   width: 100%;
   text-align: left;
@@ -538,6 +534,9 @@ header .content-wrapper {
   width: 100%;
   justify-content: space-between;
 }
+header figure {
+  width: 30%;
+}
 header nav {
   width: 20%;
   
@@ -618,16 +617,18 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 .footer-content {
-  width: 100%;
+  
   display: flex ;
   justify-content: space-between;
   align-items: center;
 
 }
 footer .contact {
-  margin: 0;
-
-
+  margin-bottom: 0;
+}
+footer .social-icons {
+  width: 100%;
+  justify-content: space-between;
 }
 footer .copyright {
 width: 100%;
@@ -650,7 +651,6 @@ align-items: flex-start;
 .mission-content p {
   width: 45%;
 
-  
 }
 
 .contact-section .content-wrapper h2 {
@@ -659,13 +659,12 @@ align-items: flex-start;
 }
 
 .contact-content {
-
 display: flex;
 justify-content: space-between;
-
 align-items: flex-start;
 
 }
+
 .map {
   position: relative;
   padding-bottom: 75%;
