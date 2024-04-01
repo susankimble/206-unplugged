@@ -311,6 +311,7 @@ input .button {
   margin-bottom: 60px;
 }
 .features p {
+  text-align: center;
   margin: 0;
 }
 .features article {
@@ -629,6 +630,7 @@ footer .contact {
 footer .social-icons {
   width: 100%;
   justify-content: space-between;
+  margin: 3px;
 }
 footer .copyright {
 width: 100%;
@@ -754,11 +756,16 @@ align-items: flex-start;
     padding-bottom: 45.5%; 
   
   }
+  footer p {
+    margin: 0 88px;
+  }
 /* ==== FAQ Page ================== */
   .faq h2 {
       width: 100%;
   }
-
+  footer p {
+    margin: 0 88px;
+  }
 }
 
 
